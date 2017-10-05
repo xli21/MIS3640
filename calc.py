@@ -12,9 +12,9 @@ print((4 / 3) * pi * r ** 3)
 
 #Question 2
 print('Price:$',24.95, 'Discount: %d%%' % 40, 'Shipping Cost: $3 first, and $.75 for addition')
-print('The cost for 60 copys are %.2f' % (24.95 * (1 - 0.4) * 60 + 3 + 0.75 * 59))
+print('The cost for 60 copys are $%.2f' % (24.95 * (1 - 0.4) * 60 + 3 + 0.75 * 59))
 
 #Question 3
 
 #Question 4
-print('My grade has increased %.1f%%' % ((89 - 82) / 82))
+print('My grade has increased %.1f%%' % (((89 - 82) / 82) * 100))
